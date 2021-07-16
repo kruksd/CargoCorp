@@ -13,9 +13,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
   <link href="style.css" rel="stylesheet">
+  <script>
+    function myResidentialFunction() {
+      var elmnt = document.getElementById("exploreID");
+      elmnt.scrollIntoView();
+    }
+  </script>
 </head>
 
 <body>
@@ -27,7 +34,8 @@
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Blogs</a></li>
         </ul>
       </nav>
     </div>
@@ -40,10 +48,10 @@
         <h1 class="hero-text-h">Through Digitalitation</h1>
       </span>
       <p class="hero-text-p">We make it easy to manage your shipments and logistics online. From finding a price and making bookings to submitting documents and getting your cargo delivered.</p>
-
+      <button class="btn btn-outline-light hero-text-p my-1" onclick="myResidentialFunction()">Explore!</button>
     </div>
   </div>
-  <div class="AboutClass" data-aos="fade-in" data-aos-duration="2000">
+  <div class="AboutClass" data-aos="fade-in" data-aos-duration="1500" >
     <div class="row">
       <div class="col-lg-6 col-sm-12">
         <h1 class="AboutUsHeading">Welcome To CargoCorp!</h1>
@@ -52,7 +60,7 @@
           Over 42,000 dedicated employees, working in 17 regional clusters around the globe, deliver operational excellence — to provide viable answers to the most challenging supply chain questions.</p>
       </div>
       <div class="col-lg-6 col-sm-12">
-        <img src="images/AboutImage.jpg" class="img-fluid" alt="">
+        <img src="images/AboutImage.jpg" class="img-fluid shadow-lg" alt="">
 
       </div>
 
@@ -66,181 +74,148 @@
       <p>From the farm to your refrigerator, or the workplace to your wardrobe,CargoCorp is developing solutions that<br /> meet customer needs from one end of the supply chain to the other.<br /></p>
 
       <div class="card-deck">
-        <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card shadow-lg" data-aos="zoom-in" data-aos-duration="1500">
           <img class="card-img-top ipClass" src="images/CustomClerance.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Customs Clearance</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
+            <a href="services.html"><button type="button" class="btn btn-dark">Know More!</button></a>
           </div>
         </div>
-        <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card shadow-lg" data-aos="zoom-in" data-aos-duration="1500">
           <img class="card-img-top img-fluid ipClass" src="images/Transport.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Transportation</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-
+            <a href="services.html"><button type="button" class="btn btn-dark">Know More!</button></a>
           </div>
         </div>
-        <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card shadow-lg" data-aos="zoom-in" data-aos-duration="1500">
           <img class="card-img-top ipClass" src="images/FrightForwarding.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Freight Forwarding</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-
+            <a href="services.html"><button type="button" class="btn btn-dark">Know More!</button></a>
           </div>
         </div>
       </div>
       <div class="card-deck mt-4">
-        <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card shadow-lg" data-aos="zoom-in" data-aos-duration="1500">
           <img class="card-img-top ipClass" src="images/Wearhousing.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Warehousing</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
+            <a href="services.html"><button type="button" class="btn btn-dark">Know More!</button></a>
           </div>
         </div>
-        <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card shadow-lg" data-aos="zoom-in" data-aos-duration="1500">
           <img class="card-img-top ipClass" src="images/SupplyChainManagement.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Supply chain management </h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-
+            <a href="services.html"><button type="button" class="btn btn-dark">Know More!</button></a>
           </div>
         </div>
-        <div class="card" data-aos="zoom-in" data-aos-duration="1500">
-          <img class="card-img-top ipClass" src="images/TotalLogistics.jpg" alt="Card image cap">
+        <div class="card shadow-lg" data-aos="zoom-in" data-aos-duration="1500">
+          <img class="card-img-top ipClass" src="images/LogisticsSolution.jfif" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Total logistics solutions.</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-
+            <a href="services.html"><button type="button" class="btn btn-dark">Know More!</button></a>
           </div>
         </div>
       </div>
 
     </div>
   </div>
-  <div class="bg-light companieBg">
+  <div class="companieBg">
   <div class="groupOfCompanies py-4" data-aos="zoom-in" data-aos-duration="1500">
-    <h1>Group Comapnies</h1>
-    <p>From the farm to your refrigerator, or the workplace to your wardrobe,CargoCorp is developing solutions that<br /> meet customer needs from one end of the supply chain to the other.<br /></p>
+    <h1 style="color: whitesmoke">Our Customers</h1>
+    <p style="color: whitesmoke">From the farm to your refrigerator, or the workplace to your wardrobe,CargoCorp is developing solutions that<br /> meet customer needs from one end of the supply chain to the other.<br /></p>
     <div class="mhn-slide owl-carousel">
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?paper">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img">  <img src="images/c1r.jpg"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?fire">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c2r (2).png" class="img-fluid"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?nature">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c3r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?video">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img">  <img src="images/c4r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?hiking">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c5r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?future">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c6r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?music">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c7r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?money">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c8r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?happiness">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img">  <img src="images/c9r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?nepal">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="images/c10r.png"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
         </div>
       </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?love">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
 
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?sports">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-
-        </div>
-      </div>
     </div>
 
   </div>
 </div>
   <div class="groupOfCompanies py-4" data-aos="zoom-in" data-aos-duration="1500">
-    <h1>Our Customers</h1>
+    <h1>Group Companies</h1>
     <p>From the farm to your refrigerator, or the workplace to your wardrobe,CargoCorp is developing solutions that<br /> meet customer needs from one end of the supply chain to the other.<br /></p>
     <div class="mhn-slide owl-carousel">
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?paper">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-          <div class="mhn-text">
-            <h4>Paper</h4>
-            <p>Paper is a thin material produced by pressing together moist fibres of cellulose pulp derived from wood, rags or grasses, and drying them into flexible sheets.</p>
-          </div>
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?fire">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-          <div class="mhn-text">
-            <h4>Fire</h4>
-            <p>Fire is the rapid oxidation of a material in the exothermic chemical process of combustion, releasing heat, light, and various reaction products.</p>
-          </div>
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?nature">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="https://source.unsplash.com/600x400/?nature"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
           <div class="mhn-text">
             <h4>Nature</h4>
             <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
@@ -249,91 +224,51 @@
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?video">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="https://source.unsplash.com/600x400/?nature"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
           <div class="mhn-text">
-            <h4>Video</h4>
-            <p>Video is an electronic medium for the recording, copying, playback, broadcasting, and display of moving visual media.</p>
+            <h4>Nature</h4>
+            <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
           </div>
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?hiking">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="https://source.unsplash.com/600x400/?nature"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
           <div class="mhn-text">
-            <h4>Hiking</h4>
-            <p>Hiking is the preferred term, in Canada and the United States, for a long, vigorous walk, usually on trails (footpaths), in the countryside, while the word walking is used for shorter, particularly urban walks.</p>
+            <h4>Nature</h4>
+            <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
           </div>
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?future">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="https://source.unsplash.com/600x400/?nature"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
           <div class="mhn-text">
-            <h4>Future</h4>
-            <p>The future is the time after the present. Future or The Future may also refer to: Futures contract, a standardized financial contract; Future (programming) · Future tense, in grammar. Contents.</p>
+            <h4>Nature</h4>
+            <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
           </div>
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?music">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="https://source.unsplash.com/600x400/?nature"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
           <div class="mhn-text">
-            <h4>Music</h4>
-            <p>Music is an art form and cultural activity whose medium is sound organized in time. The common elements of music are pitch rhythm dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound).</p>
+            <h4>Nature</h4>
+            <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
           </div>
         </div>
       </div>
       <div class="mhn-item">
         <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?money">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
+
+          <div class="mhn-img"><img src="https://source.unsplash.com/600x400/?nature"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
           <div class="mhn-text">
-            <h4>Money</h4>
-            <p>Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts in a particular country or socio-economic context.</p>
-          </div>
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?happiness">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-          <div class="mhn-text">
-            <h4>Happiness</h4>
-            <p>In psychology, happiness is a mental or emotional state of well-being which can be defined by, among others, positive or pleasant emotions ranging from contentment to intense joy.</p>
-          </div>
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?nepal">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-          <div class="mhn-text">
-            <h4>Nepal</h4>
-            <p>Nepal is a landlocked central Himalayan country in South Asia. Nepal is divided into 7 states and 77 districts and 744 local units including 4 metropolises, 13 sub-metropolises, 246 municipal councils and 481 villages.</p>
-          </div>
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?love">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-          <div class="mhn-text">
-            <h4>Love</h4>
-            <p>Love encompasses a variety of different emotional and mental states, typically strongly and positively experienced, ranging from the deepest interpersonal affection to the simplest pleasure.</p>
-          </div>
-        </div>
-      </div>
-      <div class="mhn-item">
-        <div class="mhn-inner">
-          <img src="https://source.unsplash.com/600x400/?sports">
-          <div class="mhn-img"><div class="loader-circle"><div class="loader-stroke-left"></div><div class="loader-stroke-right"></div></div></div>
-          <div class="mhn-text">
-            <h4>Sports</h4>
-            <p>A sport is commonly defined as an athletic activity or skill and involves a degree of competition, such as tennis or basketball. Some games and many kinds of racing are called sports.</p>
+            <h4>Nature</h4>
+            <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
           </div>
         </div>
       </div>
@@ -423,6 +358,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js" charset="utf-8"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
   $(function(){
