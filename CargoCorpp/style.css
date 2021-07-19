@@ -387,6 +387,14 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
 }
+.hero-image5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about.jfif");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .hero-image4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/14.jfif");
   height: 100vh;
